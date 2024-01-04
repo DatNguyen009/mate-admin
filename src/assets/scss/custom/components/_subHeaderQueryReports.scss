@@ -1,0 +1,13 @@
+.subHeaderQueryReports {
+  h1 {
+    text-transform: uppercase;
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-lg;
+  }
+  button {
+    margin-right: 5px;
+    i {
+      font-size: 16px;
+    }
+  }
+}

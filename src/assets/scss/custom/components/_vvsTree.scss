@@ -1,0 +1,51 @@
+.node-parent {
+  padding: 10px;
+  .node {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    i {
+      font-size: 20px;
+      cursor: pointer;
+    }
+    p {
+      margin: 0;
+    }
+
+    .btn-border {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+
+    .btn-border-1 {
+      border-radius: 0px;
+    }
+
+    .btn-border-top-bottom-left-0 {
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+
+    .btn-border-top-bottom-right-0 {
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+
+  &:hover {
+    background-color: $gray-200;
+    border-radius: 6px;
+  }
+}
+
+.show {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}

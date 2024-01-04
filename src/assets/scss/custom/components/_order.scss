@@ -1,0 +1,38 @@
+.modal_order {
+  position: relative;
+  .order_background {
+    width: 800px;
+    height: 794px;
+    // background-image: url("../../../../../src/assets/images/modalOrder/05102022_Hoa\ don\ Vang-1.png");
+    // background-size: cover;
+    background-color: white;
+    margin: 0 auto;
+  }
+  .order_item {
+    position: absolute;
+    left:0%;
+    top:36.5%;
+    span.productId,span.product {
+     padding-left: 30px;
+    }
+    span.total{
+      padding-left:35px;
+    } 
+  }
+  .order_total{
+    span{
+      position: absolute;
+      bottom:32%;
+      right:3%;
+    }
+  }
+  .order_date{
+    width: 400px;
+      position: absolute;
+      bottom: 28%;
+      right: 3%;
+      display: flex;
+      gap: 40px;
+      justify-content: flex-end;  
+  }
+}

@@ -1,0 +1,12 @@
+.card-collapse {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  span {
+    color: $black;
+    font-weight: 600;
+  }
+  i {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "extends": ["plugin:react/recommended"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "react/display-name": 0,
+    "react-hooks/exhaustive-deps": 0
+  }
+}

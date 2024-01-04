@@ -1,0 +1,14 @@
+stages:
+  - lint
+  - build
+  - deploy
+
+lint:
+  image: node:14
+  stage: lint
+  script:
+    - yarn install
+    - yarn lint
+  only:
+    - merge_requests
+    - master

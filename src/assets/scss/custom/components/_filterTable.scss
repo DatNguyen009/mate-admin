@@ -1,0 +1,17 @@
+.filter__section {
+  display: flex;
+  justify-content: space-between;
+  .filter__section--input {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .filter__section--btn {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.page-marginbottom {
+  margin: 0 !important;
+}

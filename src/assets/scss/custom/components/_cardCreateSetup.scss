@@ -1,0 +1,39 @@
+.list_item {
+  width: 35%;
+  margin-bottom: 0;
+  .list_item_create_setup {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    &:hover {
+      &:before {
+        position: absolute;
+        content: "Skip";
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    .number_id {
+      background-color: $gray-200;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 4px;
+    }
+  }
+}
+.flex-space-bettwen {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

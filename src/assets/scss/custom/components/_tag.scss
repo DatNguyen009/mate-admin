@@ -1,0 +1,27 @@
+.itemTags {
+  margin: 10px 0;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  .itemTags__icon {
+    i {
+      margin: 7px;
+    }
+  }
+  .itemTags__detail {
+    align-items: center;
+    margin: 7px;
+    gap: 7px;
+    .itemTags__detail--count {
+      background-color: $gray-700;
+      color: $white;
+      border-radius: 4px;
+      margin-bottom: 0;
+      padding: 2px 5px;
+    }
+    .itemTags__detail--title {
+      margin-bottom: 0;
+      font-size: 11px;
+    }
+  }
+}

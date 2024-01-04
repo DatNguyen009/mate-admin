@@ -1,0 +1,40 @@
+.card-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-text {
+  padding: 5px;
+  color: $black;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+.employ-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.title-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: $fw-medium;
+}
+.card_hover {
+  gap: 15px;
+  i {
+    font-size: 5px;
+    background: #f4f5f6;
+    padding: 10px;
+    border-radius: 4px;
+    color: #000;
+  }
+  &:hover {
+    background-color: #f9fafa;
+    border-radius: 4px;
+  }
+}

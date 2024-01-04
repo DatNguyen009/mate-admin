@@ -1,0 +1,38 @@
+.orderCurrent {
+  margin-top: 10px;
+  .card {
+    padding: 15px 10px 23px 30px;
+    border-radius: 8px;
+    .detailOrder {
+      .row {
+        margin: 0px 0px 30px 0px;
+        .orderTitle {
+          padding-top: 5px;
+          padding-bottom: 5px;
+          display: flex;
+          flex-direction: column;
+        }
+        .detailTime {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          padding-top: 5px;
+        }
+        .status {
+          display: flex;
+          align-items: center;
+          justify-content: right;
+          span {
+            font-size: 13px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .detailOrder {
+      .row:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

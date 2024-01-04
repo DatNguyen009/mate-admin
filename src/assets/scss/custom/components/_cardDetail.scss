@@ -1,0 +1,46 @@
+.cardChildrenDashboard {
+  border: 1px solid #e7eaee;
+  border-radius: 8px;
+  .cardTitle {
+    display: flex;
+    justify-content: space-between;
+    label {
+      padding-top: 8px;
+    }
+    .cardIcon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e5faff;
+      border-radius: 8px;
+      width: 32px;
+      height: 32px;
+      i {
+        font-size: 16px;
+        color: #006980;
+      }
+    }
+  }
+  .contentOfCard {
+    display: flex;
+    label:nth-child(2) {
+      display: flex;
+      align-items: center;
+      margin-left: 12px;
+    }
+  }
+  .cardProcess {
+    .numberDetail {
+      display: flex;
+      justify-content: space-between;
+      color: #2d2d2d;
+      margin-bottom: 4px;
+      label {
+        margin: 0;
+      }
+    }
+    .progress {
+      height: 4px;
+    }
+  }
+}

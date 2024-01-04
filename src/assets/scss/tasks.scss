@@ -1,0 +1,13 @@
+.borad-width {
+  min-width: 400px;
+}
+
+.applicant_rating .wrap-container {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .borad-width {
+    min-width: 300px;
+  }
+}

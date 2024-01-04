@@ -1,0 +1,28 @@
+.chartDashboard {
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  .card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    .chartTitle {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+    }
+    label {
+      margin-top: 0;
+      color: #010101;
+      width: 70%;
+    }
+  }
+  .chartSelect {
+    width: 30%;
+  }
+  canvas {
+    display: block;
+    padding: 20px;
+    height: 200px;
+  }
+}

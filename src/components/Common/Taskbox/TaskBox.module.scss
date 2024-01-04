@@ -1,0 +1,41 @@
+.TaskBox {
+  min-height: 250px;
+  border-radius: 8px;
+  padding: 10px 0px;
+  width: 300px !important;
+  border: 1px solid #e7eaee;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  .card {
+    height: 100%;
+    padding: 5px !important;
+  }
+
+  .cardTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+      padding-top: 8px;
+    }
+
+    .left {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e5faff;
+      border-radius: 8px;
+      color: #006980;
+    }
+  }
+
+  .cardContent {
+    line-height: 2.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+  }
+}

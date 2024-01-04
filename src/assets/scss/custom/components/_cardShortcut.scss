@@ -1,0 +1,60 @@
+.cardShortcut__title {
+  color: $black;
+  font-size: 16px;
+  font-weight: $fw-medium;
+  margin-bottom: 15px;
+}
+.cardShortcut__body {
+  &:hover {
+    box-shadow: $box-shadow-sm;
+  }
+
+  .card-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @mixin status($color) {
+    font-size: 12px;
+    font-weight: $fw-medium;
+    padding: 6px;
+    &:before {
+      content: "";
+      display: inline-flex;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background-color: $color;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-right: 5px;
+    }
+  }
+  .cardShortcut__status--success {
+    @include status($green);
+  }
+  .cardShortcut__status--dark {
+    @include status($black);
+  }
+
+  .cardShortcut__status--danger {
+    @include status($red);
+  }
+  .cardShortcut__status--info {
+    @include status($blue);
+  }
+
+  .cardShortcut__status--warning {
+    @include status($orange);
+  }
+
+  .cardShortcut__body--title {
+    display: inline-flex;
+    align-items: center;
+    color: $black;
+    font-weight: 400;
+    font-family: $font-family-sans-serif;
+    font-size: 15px;
+  }
+}
